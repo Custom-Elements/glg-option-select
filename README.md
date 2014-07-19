@@ -1,4 +1,7 @@
 glg-option-select
 =================
 
-a cross browser styled dropdown
+A cross browser styled dropdown  
+
+I solve the problem of getting consistent styling across modern browsers (Chrome, FF, Safari, Opera)
+
