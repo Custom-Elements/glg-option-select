@@ -1,0 +1,55 @@
+:host {
+  display: block;
+  color: rgba(69, 69, 69, 0.85);
+}
+
+select {
+  width: 100%;
+  padding: .5em;
+  border: none;
+  border-radius: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  font-size: 16px;
+  font-size: 1rem;
+  color: rgba(69, 69, 69, 0.85);
+}
+
+.select {
+  position: relative;
+  display: block;
+  padding: 0;
+  border: 1px solid rgba(51,51,51,.1);
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.select::after {
+  position: absolute;
+  top: 50%;
+  right: .5em;
+  margin-top: -.7em;
+  padding: 0;
+  background: none;
+  font-style: normal;
+  font-weight: normal;
+  content: '\25BC';
+  pointer-events: none;
+  color: rgba(69, 69, 69, 0.85);
+  z-index: 1;
+}
+
+.select select {
+  background: none;
+}
+
+.select select::-ms-expand {
+  display: none;
+}
+
+@-moz-document url-prefix() {
+  .select select {
+    border: none;
+    -moz-appearance: window;
+  }
+}
