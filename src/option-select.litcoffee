@@ -2,7 +2,7 @@
 *TODO* tell me all about your element.
 
 
-    Polymer 'option-select',
+Polymer 'option-select',
 
 ##Events
 *TODO* describe the custom event `name` and `detail` that are fired.
@@ -15,12 +15,12 @@
 
 ##Polymer Lifecycle
 
-      created: ->
+created: ->
 
-      ready: ->
+ready: ->
 
-      attached: ->
+attached: ->
 
-      domReady: ->
+domReady: ->
 
-      detached: ->
+detached: ->
